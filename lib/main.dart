@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projectppb/Screens/home_page.dart';
 import 'package:projectppb/Screens/login_page.dart';
 import 'package:projectppb/Screens/register_page.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const LoginPage(),
+        '/': (context) => const HomePage(),
         '/register': (context) => const RegisterPage(),
       },
     );
