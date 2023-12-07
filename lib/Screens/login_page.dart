@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
       setState(() {
         _isLoading = false;
       });
-      // Jika autentikasi berhasil, lanjutkan ke halaman selanjutnya (misalnya dashboard)
+      Navigator.pushNamed(context, '/login');
       // Jika tidak berhasil, tampilkan pesan error atau lakukan tindakan lainnya
     });
   }
